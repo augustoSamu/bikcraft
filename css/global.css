@@ -1,0 +1,33 @@
+:root {
+  --c12: #000000;
+  --c11: #111111;
+  --c10: #2e2e2e;
+  --c1: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
