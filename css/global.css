@@ -3,6 +3,12 @@
   --c11: #111111;
   --c10: #2e2e2e;
   --c1: #ffffff;
+
+  --p5: #332200;
+  --p4: #664400;
+  --p3: #a66f00;
+  --p2: #e4a30b;
+  --p1: #ffbb00;
 }
 
 body {
@@ -13,7 +19,8 @@ body {
 h1,
 h2,
 h3,
-p {
+p,
+ul {
   margin: 0;
 }
 
@@ -23,11 +30,18 @@ img {
 }
 
 a {
+  display: inline-block;
   text-decoration: none;
+  color: inherit;
 }
 
 ul {
-  margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.container {
+  max-width: 1160px;
+  padding: 20px;
+  margin: 0 auto;
 }
