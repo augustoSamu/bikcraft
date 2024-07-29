@@ -11,13 +11,15 @@
 .intro {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 40px;
+  gap: 0 40px;
 }
 
 .intro h1 {
   margin-bottom: 32px;
   font-size: 4rem;
   line-height: 1.125;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
 }
 
 .intro h1 span {
@@ -29,6 +31,8 @@
   font-size: 1.5rem;
   line-height: 1.5;
   color: #b2b2b2;
+  font-family: 'Roboto', sans-serif;
+  font-family: 400;
 }
 
 .intro a {
@@ -42,6 +46,9 @@
   font-size: 1.125rem;
   line-height: 1.33;
   font-weight: bold;
+
+  font-family: 'Poppins';
+  font-weight: 600;
 }
 
 .intro a:hover {

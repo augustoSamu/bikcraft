@@ -21,6 +21,8 @@
   font-size: 1.125rem;
   padding: 16px 0px;
   position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
 }
 
 .header-menu a::after {
