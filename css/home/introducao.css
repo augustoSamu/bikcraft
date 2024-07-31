@@ -18,10 +18,6 @@
   margin-bottom: 32px;
 }
 
-.intro h1 span {
-  color: var(--p1);
-}
-
 .intro p {
   margin-bottom: 20px;
   color: var(--c5);
@@ -42,7 +38,7 @@
   .intro-bg {
     background: var(--c11);
     padding-top: 40px;
-    box-shadow: inset 0 -60pxw var(--c0);
+    box-shadow: inset 0 -60px var(--c0);
   }
 
   .intro {
