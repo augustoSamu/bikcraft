@@ -33,9 +33,3 @@ ul {
   padding: 0;
   list-style: none;
 }
-
-.container {
-  max-width: 1160px;
-  padding: 20px;
-  margin: 0 auto;
-}
