@@ -3,6 +3,7 @@
 @import "./utils/cores.css";
 
 @import "./global/header.css";
+@import "./global/footer.css";
 
 @import "./utils/componentes.css";
 
@@ -13,4 +14,5 @@
 
 @import "./bicicletas/bicicletas-lista.css";
 
-@import "./seguros/seguros.css"
+@import "./seguros/seguros.css";
+
