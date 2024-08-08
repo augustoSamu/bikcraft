@@ -52,3 +52,27 @@
     font-size: 1rem;
   }
 }
+
+.titulo-bg {
+  background-color: var(--c11);
+}
+
+.titulo.container {
+  padding: 60px 20px;
+}
+
+.titulo p {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+  .titulo.container {
+    padding: 40px 20px;
+  }
+
+  .titulo p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
+}
